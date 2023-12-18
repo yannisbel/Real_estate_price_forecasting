@@ -1,41 +1,39 @@
-Guide d'utilisation pour exécuter le Jupyter Notebook
+Jupyter Notebook user guide
 =====================================================
 
-Ce guide présente les étapes nécessaires pour exécuter le Jupyter Notebook fourni dans ce répertoire.
+This guide outlines the steps required to run the Jupyter Notebook provided in this directory.
 
-Prérequis
+Prerequisites
 ---------
 
-- Avoir une version de Python installée sur votre machine
-- Avoir sélectionné un environnement Jupyter
+- Have a version of Python installed on your machine
+- Have selected a Jupyter environment
 
-Installation des packages nécessaires
+Install the necessary packages
 -------------------------------------
 
-Pour exécuter le notebook, il est nécessaire d'installer certains packages Python. Vous pouvez le faire en utilisant les commandes suivantes :
+To run the notebook, you need to install certain Python packages. You can do this using the following commands:
 
 `pip install -U scikit-learn`
 `pip install seaborn`
 `pip install xgboost`
 
-Exécution du notebook
+Running the notebook
 ---------------------
 
-Une fois que les packages sont installés, vous pouvez exécuter le notebook en ouvrant le fichier `Projet_Machine_Learning.ipynb` dans Jupyter Notebook.
+Once the packages have been installed, you can run the notebook by opening the file `Projet_Machine_Learning.ipynb` in Jupyter Notebook.
 
-Prédiction de données
+Data prediction
 ---------------------
 
-Si vous souhaitez prédire des données, vous pouvez exécuter le fichier `Projet_Machine_Learning_trained_models.ipynb` dans Jupyter Notebook.
+If you want to predict data, you can run the `Projet_Machine_Learning_trained_models.ipynb` file in Jupyter Notebook.
 
-Nous avons sauvegardé nos deux modèles les plus performants (un pour la regression et un pour la classification)
+We've saved our two best-performing models (one for regression and one for classification).
 
-Vous pouvez saisir des features de maisons de deux façons différentes :
+You can enter house features in two different ways:
 
-- Si vous souhaitez prédire le prix d'une maison uniquement, vous pouvez remplir les caractéristiques nécessaires de cette maison dans le np.array des cellules associées aux modèles
+- If you want to predict the price of a house only, you can fill in the necessary house features in the np.array of cells associated with the models.
 
-- Si vous souhaitez prédire le prix de plusieurs maisons, vous pouvez remplir le fichier data_to_predict.csv dans le dossier data, puis exécuter les cellules associées aux modèles
+- If you want to predict the price of several houses, you can fill in the data_to_predict.csv file in the data folder, then run the cells associated with the models.
 
-Un fichier `data_description.txt` est à votre disposition pour séléctionner les valeurs de caractéristiques pour estimer le prix de votre/vos maison(s).
-
-Bonnes prédictions!
+A `data_description.txt` file is available for you to select characteristic values to estimate the price of your house(s).Good luck with your predictions!
